@@ -1,0 +1,153 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+   color:white;
+   background-color: rgb(41, 5, 5);
+   font-family: 'Times New Roman', Times, serif;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+a{ 
+    color:rgb(243, 236, 196);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header img {
+    width: 500px;
+    height: 260px;
+    border-radius: 5%;
+    border: 6px solid white; 
+    
+    }
+    
+
+.center{
+    text-align: center;
+}
+h1 {
+    color:rgb(216, 205, 51);
+    text-align: center;
+    margin: 60px;
+    font-size: 30px;
+    
+}
+.conteiner {
+    padding: 0 20px; 
+}
+
+p {
+    text-align: center;
+    font-size: 22px;
+}
+nav a:hover {
+    color: rgb(216, 205, 51);
+}
+
+#sobremim {
+    font-size: 30px;
+    
+}
+
+#projetos {
+    font-size: 30px;
+    
+}
+
+#servicos {
+    font-size: 30px;
+    
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 2.0;
+}
+
+section h1 {
+    text-align: center; /* Centraliza os títulos (opcional) */
+}
+
+section p {
+    margin-top: 50px; /* Espaçamento acima do parágrafo */
+   
+}
+
+section {
+    margin-bottom: 70px; /* Espaçamento entre as seções */
+}
+
+
+section h1 + p {
+    color: white;
+    margin-bottom: 20px;
+    background-color:  rgb(59, 6, 6); /* Cor de fundo do parágrafo */
+    border-radius: 5px;
+}
+/* Manter o estilo atual das imagens */
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 50px;
+}
+
+/* Estilização da seção de contatos */
+footer.contacts {
+    flex-direction: column;
+    align-items: center;
+}
+
+footer.contacts h1 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+
+footer.contacts p {
+    text-align: center;
+    font-size: 22px;
+    line-height: 1.5;
+    color:rgb(250, 249, 249);
+}
+footer p{
+     color: rgb(216, 205, 51);
+     font-size: 20px;
+}
+
+header {
+    text-align: center; /* Centraliza o conteúdo do header, incluindo a imagem */
+}
+
+header img {
+    max-width: 100%; /* A largura da imagem vai ocupar no máximo 100% do contêiner */
+    height: auto; /* A altura será ajustada automaticamente para manter a proporção */
+    display: inline-block; /* Faz a imagem se comportar como um elemento de bloco */
+}
+
+footer img {
+    max-width: 100%; /* A largura da imagem vai ocupar no máximo 100% do contêiner */
+    height: auto; /* A altura será ajustada automaticamente para manter a proporção */
+    display: inline-block; /* Faz a imagem se comportar como um elemento de bloco */
+}
